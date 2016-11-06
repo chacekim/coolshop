@@ -10,10 +10,8 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Styles -->
-    {{--<link href="/css/app.css" rel="stylesheet">--}}
+    <link href="/css/app.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -84,9 +82,6 @@
     </div>
 
     <!-- Scripts -->
-    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/js/app.js"></script>
-
 </body>
 </html>
